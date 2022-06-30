@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServiceController {
     @GetMapping("/")
     public String index() {
-        return "Buenas noches";
+        return "Buenas noches y hola como está";
     }
 }
